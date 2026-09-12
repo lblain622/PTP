@@ -36,7 +36,7 @@ jobs:
           cache-dependency-path: ui/package-lock.json
       - run: npm ci
       - run: npm run lint
-      - run: npx tsc --noEmit
+      - run: npm run typecheck
 
   migration-baseline:
     name: Migration baseline
