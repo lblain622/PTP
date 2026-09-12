@@ -1,0 +1,11 @@
+# Environment and local Supabase state
+.env
+.env.*
+!.env.example
+supabase/.env
+supabase/.temp/
+
+# Local editor and OS files
+.DS_Store
+.idea/
+.vscode/
