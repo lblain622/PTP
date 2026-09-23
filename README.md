@@ -7,6 +7,8 @@ PTP is a travel-safety companion for community incident reports, verified local 
 - [MVP product plan](docs/MVP_PLAN.md)
 - [Recommended technical stack](docs/TECH_STACK.md)
 - [Safety, privacy, and moderation requirements](docs/SAFETY_PRIVACY.md)
+- [Phase 0 foundation checklist](docs/PHASE_0_FOUNDATION.md)
+- [Environment and token contract](docs/ENVIRONMENT.md)
 
 ## MVP focus
 
