@@ -8,7 +8,7 @@
     "expo-constants": "~56.0.16",
     "expo-device": "~56.0.4",
     "expo-font": "~56.0.5",
-    "expo-glass-effect": "~56.0.4",
+    "expo-glass-effect": "~57.0.3",
     "expo-image": "~56.0.9",
     "expo-linking": "~56.0.13",
     "expo-router": "~56.2.8",
