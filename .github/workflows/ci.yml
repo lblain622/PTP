@@ -4,13 +4,13 @@ on:
   pull_request:
     paths:
       - "ui/**"
-      - "supabase/migrations/**"
+      - "supabase/**"
       - ".github/workflows/ci.yml"
   push:
     branches: [main]
     paths:
       - "ui/**"
-      - "supabase/migrations/**"
+      - "supabase/**"
       - ".github/workflows/ci.yml"
 
 permissions:
@@ -45,6 +45,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: Verify initial migration is present
         run: test -f supabase/migrations/20260912000000_phase_0_foundation.sql
+      - uses: supabase/setup-cli@v1
+        with:
+          version: latest
+      - name: Start local database and apply migrations
+        run: supabase db start
+      - name: Test database permissions and moderation
+        run: supabase test db
       - name: Reject accidental environment files
         run: |
           ! git ls-files | grep -E '(^|/).env($|\.)' | grep -vE '(^|/)\.env\.example$'

@@ -6,6 +6,7 @@ supabase/.env
 supabase/.temp/
 
 # Local editor and OS files
+node_modules/
 .DS_Store
 .idea/
 .vscode/

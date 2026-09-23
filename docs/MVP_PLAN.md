@@ -112,9 +112,11 @@ Keep safety classification rules on the server. Do not trust the mobile app to d
 ## 9. Delivery roadmap
 
 ### Phase 0 — foundation (1–2 weeks)
-- Set up repository structure, environment configuration, CI, design tokens, database migrations.
-- Define report categories, moderation policy, privacy notices, retention period, and emergency disclaimer.
-- Build account, consent, and role model.
+- [x] Set up repository structure, environment configuration, CI configuration, design tokens, and development database migrations.
+- [x] Define structured report categories and implement the account, consent-field, and role database model.
+- [x] Connect account authentication and verify development database permissions and audited moderation.
+- [ ] Complete consent flows and review moderation policy, privacy notices, retention periods, and the emergency disclaimer.
+- [ ] Finish environment separation, device testing, and release safeguards in the [Phase 0 checklist](PHASE_0_FOUNDATION.md).
 
 ### Phase 1 — useful reporting MVP (2–4 weeks)
 - Map/feed with reviewed reports.
