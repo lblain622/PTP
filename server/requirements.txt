@@ -1,0 +1,5 @@
+Django>=6.1,<6.2
+djangorestframework>=3.16,<4
+djangorestframework-simplejwt==5.5.1
+django-cors-headers==4.9.0
+PyJWT[crypto]>=2.10,<3

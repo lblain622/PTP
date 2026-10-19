@@ -7,6 +7,16 @@ supabase/.temp/
 
 # Local editor and OS files
 node_modules/
+.venv/
+.python-packages/
+__pycache__/
+*.pyc
 .DS_Store
 .idea/
 .vscode/
+
+# Local SQLite databases and journal files
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm

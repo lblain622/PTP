@@ -4,6 +4,8 @@ PTP is a travel-safety companion for community incident reports, verified local 
 
 ## MVP documentation
 
+- [Run sign-in, registration, and Django accounts](docs/ACCOUNTS.md)
+
 - [MVP product plan](docs/MVP_PLAN.md)
 - [Recommended technical stack](docs/TECH_STACK.md)
 - [Safety, privacy, and moderation requirements](docs/SAFETY_PRIVACY.md)
